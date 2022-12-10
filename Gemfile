@@ -50,6 +50,9 @@ gem "bootsnap", require: false
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 6.0.0'
 
+# Use Devise as a new gem
+gem 'devise'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
