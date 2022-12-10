@@ -50,6 +50,9 @@ gem "bootsnap", require: false
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 6.0.0'
 
+# Use Bootstrap form and install a new gem
+gem 'bootstrap_form'
+
 # Use Devise as a new gem
 gem 'devise'
 
