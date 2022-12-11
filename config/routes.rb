@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   root to: 'pages#index'
   # Defines the root path route ("/")
   # root "articles#index"
+  # Edit login route with devise
+  devise_scope :user do
+    get 'login', to: 'devise/sessions#new'
+  end
 end
